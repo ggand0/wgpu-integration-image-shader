@@ -49,7 +49,7 @@ impl Pipeline {
         });
 
         // Load Image and Create Texture
-        let img = image::open("image.jpg").expect("Failed to open image");
+        let img = image::open("sample.jpg").expect("Failed to open image");
         let rgba = img.to_rgba8();
         let (width, height) = img.dimensions();
 
